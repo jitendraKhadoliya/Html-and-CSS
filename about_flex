@@ -1,0 +1,21 @@
+flex direction: column;row;reversse;
+main x me align krne ke liye
+justify-content : flex-end (last me add);  
+justify-content : flex-start (start me add);  
+justify-content : center (center me add);  
+justify-content : space between (sb text ke beech braber space me add);  
+
+cross x me align krne ke liye
+align-items: flex-start;
+align-items: center;
+align-items: flex-end;
+align-items: flex-baseline;
+align-items: flex-stretch;
+
+(dono ka use)
+flex direction: column;row;reversse;
+align-items: center; justify-content : center (center me add);  
+
+
+
+ align-self(akele item ko align krne ke liye2)
