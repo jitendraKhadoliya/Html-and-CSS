@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex challenge</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+    
+        .container{
+            border: 2px solid black;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            text-align: center;
+            background-color: rgb(59, 77, 82);
+        }
+        .left{
+            border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            font-weight: 700;
+            border-radius: 5px;
+            width: 20%;
+            background-color: lightgray;
+            color:rgb(224, 21, 21);
+        
+        }
+        .right{
+            border: 2px solid rosybrown;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            flex-grow: 0.6;
+        }
+        .artical{
+            flex-grow: 4;
+            background-color: lightgoldenrodyellow;
+        }
+        .footer{
+            padding: 10px;
+            background-color: rosybrown;
+            border-radius: 5px;
+        }
+        .header{
+            background-color: lightpink;
+            border-radius: 5px;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="left">nav bar</div>
+
+
+
+        <div class="right">
+
+
+        <div class="header"> <h1>HEADER</h1> </div>
+        <div class="artical"> <p>artical</p> </div>
+        <div class="footer"> <footer>footer bar</footer> </div>
+    </div>
+
+
+    </div>
+
+
+    
+</body>
+</html>

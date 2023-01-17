@@ -1,0 +1,23 @@
+*{ 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ } 
+ .container{
+    padding: 5px;
+    background-color: wheat;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(6,1fr);
+}
+.sub-items{
+    background-color: lightgreen;
+    border-radius: 5px;
+    }
+
+    .container-item-1,.container-item-2,.container-item-3,.container-item-4,.container-item-5,.container-item-6{
+    display: grid;
+    grid-gap: 10px;
+}
