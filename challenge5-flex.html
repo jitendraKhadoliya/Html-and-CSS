@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box challenge</title>
+
+    <style>
+        /* .box{
+            background-color: gray;
+            padding: 5px;
+            margin: 2px;
+            border-radius: 3px;
+        }
+        .r1,.r3,.r2{
+            border-radius: 2px;
+            background-color: red;
+            padding: 3px;
+            margin: 4px;
+        }
+        .r3{
+            flex-direction: row;
+        }
+
+        .mainnes{
+            background-color: yellowgreen;
+            padding: 2px;
+            margin: 2px;
+            flex-direction: row; 
+        }*/
+        /* .box{ 
+            display: flex;
+        }*/
+
+        /* .r1{
+            background-color: blueviolet;
+            display: flex;
+        }
+
+        .mainnes{
+            display: flex;
+            flex-grow: 1; 
+            background-color: brown;
+            padding: 5px;
+            margin: 5px;
+        }
+        .nes1{
+            display: flex;
+             flex-grow: 1; 
+            padding: 5px;
+            margin: 4px;
+            background-color: red;
+            color: whitesmoke;
+        } */
+
+        .box{
+            display: flex;
+        }
+        .box div{
+            font-size: bold;
+            padding: 10px;
+            margin: 4px;
+            color: blue;
+            background-color: brown;
+            flex-grow: 1;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .nes{
+            display: flex;
+        }
+        .nes div{
+            text-align: center;
+            margin: 2px;
+            border-radius: 5px;
+            padding: 7px;
+            background-color: aqua;
+        }
+
+        
+
+
+
+    </style>
+
+</head>
+<body>
+ 
+<div class="box">
+    <!-- row one -->
+                        <!-- <div class="r1"> -->
+                <div>1 
+                <!-- now creating nested rows in div1 -->
+                <div class="nes">
+                    <!-- this is nested row1 -->
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+                <div class="nes">
+                    <!-- this is nested row2 -->
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
+
+                <div class="nes">
+                <!-- this is nested rows3 -->
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                </div>
+
+     </div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+<!-- row two -->
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <!-- row three -->
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>

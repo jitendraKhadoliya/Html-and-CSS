@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing page</title>
+    <style>
+        .first,.second{
+            width: auto;
+            display: flex;
+            margin: 20px;
+            padding: 15px;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+
+        .child{
+            margin: 3px;
+            border: 2px lightgrey solid;
+            /* width: 150px; */
+        }
+
+        .heading{
+            text-align: center;
+            color: sienna;
+            background-color: lavender;
+        }
+            
+        #child1,#child4{
+            margin: 14px;
+        }
+        #child3,#child6{
+            margin: 8px;
+        }
+
+        .button{
+            text-align: center;
+            padding: 10px;
+            color: azure;
+            background-color: black;
+            border-radius: 5px;
+        }
+
+        .button:hover{
+            background-color: blueviolet;
+        }
+
+        #btn{
+            text-align: center;
+            padding: 4px;
+        }
+        .line{
+            padding: 8px;
+        }
+
+        .img{
+            max-width: 100%;
+            height: auto;
+        }
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div class="child" id="child1">
+            <!-- box1 -->
+            <img class="img" src="https://cdn.pixabay.com/photo/2022/07/26/13/50/bee-7345925_1280.jpg" alt="Bee image">
+            <h2 class="heading">Stingless Bee</h2>
+            <p class="line">sometimes called stingless honey bees or simply meliponines, are a large group of bees </p>
+            <div id="btn">
+            <button class="button">here is why </button>
+        </div>
+        </div>
+        <div class="child" id="child2">
+            <!-- box2 -->
+            <img class="img"  src="https://cdn.pixabay.com/photo/2022/03/16/01/23/bird-7071408_1280.jpg" alt="Bird image">
+            <h2 class="heading">Bird</h2>
+            <p class="line">Birds have a unique digestive system that allows them to eat when they can—usually on the fly—and digest later.</p>
+            <div id="btn">
+            <button class="button">here is why </button></div>
+
+        </div>
+        <div class="child" id="child3">
+            <!-- box3 -->
+            <img class="img" src="https://cdn.pixabay.com/photo/2015/04/25/12/39/girls-739071_1280.jpg" alt="tulip image">
+            <h2 class="heading">Tulips (Tulipa)</h2>
+            <p class="line">Tulips (Tulipa) are a genus of spring-blooming perennial herbaceous bulbiferous geophytes (having bulbs as storage organs).
+            </p>
+            <div id="btn">
+            <button class="button">here is why </button></div>
+
+        </div>
+    </div>
+
+    <div class="second">
+        <!-- box4 -->
+        <div class="child" id="child4">
+            <img class="img" src="https://cdn.pixabay.com/photo/2022/04/24/16/52/animal-7154059_1280.jpg" alt="cat image">
+            <h2 class="heading">cat</h2>
+            <p class="line">cat, (Felis catus), also called house cat or domestic cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family.</p>
+            <div id="btn">
+                <button class="button">here is why </button></div>
+
+
+        </div>
+        <div class="child" id="child5">
+            <img class="img"  src="https://cdn.pixabay.com/photo/2022/07/19/10/35/puppies-7331739_1280.jpg" alt="puppies">
+            <h2 class="heading">puppies</h2>
+            <p class="line">Domestic dogs are mostly kept as pets, though many breeds are capable of surviving on their own, whether it's in a forest or on city streets.</p>
+            <div id="btn">
+                <button class="button">here is why </button></div>
+
+
+        </div>
+        <div class="child" id="child6">
+            <img class="img"  src="https://cdn.pixabay.com/photo/2022/04/04/13/54/city-7111380_1280.jpg" alt="city image">
+            <h2 class="heading">City life</h2>
+            <p class="line">Village people, if they live in cities face a lot of trouble and disparities initially.People who live in cities try to convert their dreams into reality with hard work. </p>
+            <div id="btn">
+                <button class="button">here is why </button></div>
+
+
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
