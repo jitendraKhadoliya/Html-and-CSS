@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <hr>
+    <h2>User Information</h2>
+
+    <p>First Name : * <input type="text" name="First" id="First" placeholder="eg. Jitendra"> </p>
+    <p>Last Name : * <input type="text" name="Last" id="Last" placeholder="eg. Khadoliya" > </p>
+    
+
+<fieldset>
+<legend>Gender</legend>
+       <span>Male<input type="radio" name="select" id="Male"></span>
+    <span>Female<input type="radio" name="select" id="Female"></span>
+    <span>Others<input type="radio" name="select" id="Others"></span>
+</fieldset>
+<br>
+
+<p>
+    address :
+    <input type="text" name="Address" id="Address" placeholder="Enter your Address">
+</p>
+<p>
+    Email : *<input type="email" name="Email" id="Email"
+    placeholder="Enter Your Email">
+</p>
+<p>
+    Pincode : <input type="number" name="pincode" id="Pincode" placeholder="eg.333001 ">
+</p>
+<hr>
+<h2>Payment Information</h2>
+<p>Card Type : 
+    <select name="card_type" id="card_type">
+    <option value="#">------select your card type------</option>
+    <option value="Visa">Visa</option>
+    <option value="Master Card">Master Card</option>
+    <option value="Paypal">Paypal</option>
+     </select>
+</p> 
+<p>Card Number :*
+    <input type="password" name="Card Number" id="Card Number" maxlength="16">
+</p>
+<p>Expiration Date
+    <input type="date" name="Expiration Date" id="Expiration Date">
+</p>
+<p>
+    CVV :* <input type="password" name="CVV" id="CVV" placeholder="eg.123" maxlength="3" >
+</p>
+<input type="submit" value="Pay Now">
+
+</body>
+</html>
