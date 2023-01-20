@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px 30px;
+    /* background-image: url(image/background.jpg); */
+    background-image: url(https://cdn.wallpapersafari.com/0/54/PR7YyW.jpg);
+background-size: 100%;
+}
+
+
+/* span{
+    padding: 10px;
+    border: 3px;
+    background-color: black;
+    background-position: center 20px;
+    text-align: right;
+    direction: right;
+} */
+
+.signup,
+.contact {
+    padding: 10px;
+    direction: rtl;
+    color: green;
+    background-color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-position: right;
+}
+
+.tag {
+    text-align: right;
+    overflow: hidden;
+    background-color: black;
+    padding: 20px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.signin {
+    /* padding: 20px; */
+    direction: rtl;
+    color: green;
+    background-color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-position: right;
+}
+
+.symbol {
+    color: green;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgba(135, 207, 235, 0.45);
+}
+
+.shorting {
+    width: inherit;
+    padding: 0px 100px;
+    text-align: center;
+    color: black;
+
+}
+
+ .middle{ 
+    padding: 10px 10px;
+    border: 20px solid rgba(135, 207, 235, 0.45) ;
+    box-shadow:coral;
+    text-align: center;
+    border-radius: 10px;
+} 
+.message{
+    height: 20px 20px;
+}
+
+
+.fill{
+ text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="button"],
+input[type="reset"]{
+    background-color: whitesmoke;
+    margin: 10px 10px;
+    padding: 5px 20px;
+    border-radius: 4px; 
+}
+input[type="submit"]{
+    background-color: rgb(72, 147, 72);
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+input[type="reset"]{
+    background-color: rgba(190, 67, 67, 0.826);
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+input[type="submit"]:hover
+{
+    border-style:groove;
+    background-color: rgb(0, 255, 0);
+    transform-style: preserve-3d;
+}
+    input[type="reset"]:hover
+{
+        border-style: groove;
+        background-color: rgb(255, 0, 0);
+    }
