@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+.boxes{
+    text-align: center;
+    margin-top: 10px;
+    color:tomato;
+    background-color: blue;
+}
+#main{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+    background-color: red;
+    color:yellowgreen;
+    padding: 20px;
+    width: 25%;
+    border: 10%;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+    @media all and(min-width: 921px) and(max-width: 1146px) {
+        .box{
+            width: 100%;
+            padding: 60px;
+            margin: 15px;
+            float: none;
+        }
+    }
+
+    @media all and (max-width: 920px) and (min-width: 721px ){
+        .box{
+            width: 80%;
+            padding: 30px;
+            margin: 5px;
+            float: none;
+        }
+    }
+
+    @media all and(max-width:720px) and (min-width:521px){
+        .box{
+            width: 65%;
+            padding: 25px;
+            margin: 5px;
+            float: left;
+        }
+    }
+
+    @media all and(max-width:520px) and (min-width: 321px){
+        .box{
+            width: 35%;
+            padding: 5px;
+            margin: 5px;
+            float: left;
+        }
+    }
+
+    @media all and(max-width : 320px){
+        .box{
+            width: 45%;
+            padding: 30px;
+            margin: 15px;
+            float: left;
+        }
+    }
+
+    </style>
+
+
+
+</head>
+<body>
+<div class="boxes">
+   <h1> checking responsiveness </h1>
+</div>
+<br>
+<div id="main" > 
+
+    <span class="box">this is  box1</span>
+    <span class="box">this is  box2</span>
+    <span class="box">this is  box3</span>
+    <span class="box">this is  box4</span>
+</div>
+
+</body>
+</html>
